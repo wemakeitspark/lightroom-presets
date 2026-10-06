@@ -1,0 +1,47 @@
+s = {
+	deflated = {
+		{
+			"SPARK_",
+			{
+				value = "date_YYYY",
+			},
+			{
+				value = "date_MM",
+			},
+			{
+				value = "date_DD",
+			},
+			"_",
+			{
+				value = "date_Hour",
+			},
+			{
+				value = "date_Minute",
+			},
+			{
+				value = "date_Second",
+			},
+			"_",
+			{
+				value = "custom_token",
+			},
+			"_",
+			{
+				value = "com.adobe.creator",
+			},
+			"_",
+			{
+				value = "image_originalName",
+			},
+			name = "WMIS 2027",
+			presetType = "Naming",
+		},
+		"AgTokenPresets",
+		"restoreTokenFromArchivedState",
+	},
+	id = "4156A612-8749-48CB-8C18-63BF61857F1F",
+	internalName = "WMIS 2027",
+	title = "WMIS 2027",
+	type = "Naming_Tokens",
+	version = 0,
+}

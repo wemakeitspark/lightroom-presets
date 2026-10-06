@@ -1,0 +1,23 @@
+name: Release presets
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ZIP maken
+        run: |
+          VERSION=${GITHUB_REF_NAME#v}
+          zip -r HOC-LR-presets-$VERSION.zip "Export Presets" "Filename Templates" -x "*/.*"
+          cp HOC-LR-presets-$VERSION.zip HOC-LR-presets.zip
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            HOC-LR-presets-${{ env.VERSION }}.zip
+            HOC-LR-presets.zip
+          generate_release_notes: true

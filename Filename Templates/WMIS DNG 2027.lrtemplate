@@ -1,0 +1,42 @@
+s = {
+	deflated = {
+		{
+			{
+				value = "date_YYYY",
+			},
+			{
+				value = "date_MM",
+			},
+			{
+				value = "date_DD",
+			},
+			"_",
+			{
+				value = "date_Hour",
+			},
+			{
+				value = "date_Minute",
+			},
+			{
+				value = "date_Second",
+			},
+			"_",
+			{
+				value = "image_originalName",
+			},
+			"_",
+			{
+				value = "com.adobe.creator",
+			},
+			name = "DNG",
+			presetType = "Naming",
+		},
+		"AgTokenPresets",
+		"restoreTokenFromArchivedState",
+	},
+	id = "E812B169-AD41-415B-9683-F1B361F37167",
+	internalName = "DNG",
+	title = "DNG",
+	type = "Naming_Tokens",
+	version = 0,
+}
