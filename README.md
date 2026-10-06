@@ -1,6 +1,6 @@
 # House of Clicks – Lightroom presets
 
-Export presets en bestandsnaamsjablonen voor fotografen die voor House of Clicks werken.
+Export presets en bestandsnaamsjablonen voor fotografen van We Make It Spark en Ambassade32 (onderdeel van House of Clicks).
 Werkt met **Lightroom Classic** (macOS en Windows). De cloudversie "Lightroom" ondersteunt deze bestanden niet.
 
 ## Downloaden
@@ -49,14 +49,20 @@ Filename Templates/
 - **Export presets:** open _Bestand_ → _Exporteren…_. Links staat de map **HOUSE OF CLICKS** met de vijf presets.
 - **Bestandsnaamsjablonen:** in het exportvenster, onder _Bestandsnaamgeving_, staan **A32 2027**, **WMIS 2027** en **WMIS DNG 2027** in de lijst.
 
-## Gebruik
+## Exporteren
 
-1. Selecteer de foto's en kies _Bestand_ → _Exporteren…_.
-2. Klik links op de juiste preset in **HOUSE OF CLICKS**.
-3. Kies bij **Exporteren naar** zelf een map op je eigen computer.
-4. Vul een eventueel gevraagd veld voor _Aangepaste tekst_ in en klik op **Exporteren**.
+1. **Selecteer de foto's** in de Bibliotheek of Ontwikkelen-module.
+2. Open het exportvenster via _Bestand_ → _Exporteren…_
+   (macOS: `Cmd` + `Shift` + `E`, Windows: `Ctrl` + `Shift` + `E`).
+3. **Kies de formaten**: zet in de map **HOUSE OF CLICKS** het vinkje aan vóór elke
+   preset die je wilt exporteren, bijvoorbeeld **WMIS - HR** en **WMIS - LR**.
+4. Klik op **Batch exporteren**.
+5. In het volgende scherm kies je een lokale map waarnaar je wil exporteren en **pas je de
+   aangepaste tekst aan** volgens de opdracht.
+6. Klik op **Exporteren**. Lightroom exporteert alle aangevinkte formaten in één keer.
 
-Pas de instellingen van de preset niet aan. Klopt er iets niet, laat het ons weten.
+Pas verder geen instellingen aan, zoals de afmetingen, de kwaliteit of de kleurruimte.
+Klopt er iets niet, laat het ons weten.
 
 ## Updaten
 
